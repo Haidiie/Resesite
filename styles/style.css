@@ -57,8 +57,18 @@ strong {
     font-weight: 700;
 }
 
+
 .page-read-more:hover,
 .page-read-more:focus{
+    color: #143774;
+    text-decoration: underline;
+}
+
+.page-info-comment{
+    text-decoration: none;
+}
+
+.page-info-comment:hover{
     color: #143774;
     text-decoration: underline;
 }
@@ -146,26 +156,30 @@ nav li{
     margin-left: 32px;
 }
 
-nav a{
+nav a,#flip{
     text-decoration: none;
     color: #707070;
     font-weight: 700;
-    
+}
 
+#flip{
+    cursor: pointer;
+}    
+
+#panel {
+    display: none;
 }
 
 nav a:hover,
-nav a:focus{
+#flip:hover{
     color: #1792d2;
 }
 
-.current-page{
-    border-bottom: 1px solid #707070;
+button{
+    margin-top: 20px;
 }
 
-.current-page:hover{
-    color: #707070;
-}
+
 
 @media (max-width: 800px){
     nav ul{
@@ -176,6 +190,7 @@ nav a:focus{
         margin: 10px;
     }
 }
+
 
 /* articles */
 
@@ -219,6 +234,8 @@ nav a:focus{
         height: 200px;
         object-fit: cover;
     }
+
+
 }
 
 /* widget */
@@ -234,3 +251,6 @@ nav a:focus{
     flex-direction: column;
     border-bottom: 1px solid #707070;
 }
+
+
+
