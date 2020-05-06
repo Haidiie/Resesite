@@ -14,14 +14,12 @@ img {
 Typografi
 =================== */
 
-
 h1,h2,h3 {
     font-family: Arial;
     font-weight: 400;
     color: rgb(23, 67, 78);
     margin-top: 0;
 }
-
 
 h1{
     font-size: 30px;
@@ -57,7 +55,6 @@ strong {
     font-weight: 700;
 }
 
-
 .page-read-more:hover,
 .page-read-more:focus{
     color: #143774;
@@ -92,7 +89,6 @@ strong {
     margin: 16px 0 4px;
 }
 
-
 /* =================
 Layout
 =================== */
@@ -105,8 +101,6 @@ Layout
     flex-direction: column;
     justify-content: space-between;
 }
-
-
 
 header{
     background: #e6e6e6;
@@ -138,11 +132,9 @@ footer{
     }
 }
 
-
 /* =================
 Navigation
 =================== */
-
 
 nav ul {
     list-style: none;
@@ -180,7 +172,6 @@ button{
 }
 
 
-
 @media (max-width: 800px){
     nav ul{
         flex-direction: column;
@@ -190,7 +181,6 @@ button{
         margin: 10px;
     }
 }
-
 
 /* articles */
 
@@ -204,7 +194,6 @@ button{
     display: flex;
     flex-direction: column;
     margin-bottom: 16px;
-
 }
 
 .page-new-main {
@@ -234,8 +223,6 @@ button{
         height: 200px;
         object-fit: cover;
     }
-
-
 }
 
 /* widget */
@@ -251,6 +238,3 @@ button{
     flex-direction: column;
     border-bottom: 1px solid #707070;
 }
-
-
-
